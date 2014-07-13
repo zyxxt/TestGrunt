@@ -18,6 +18,7 @@
 
     "devDependencies": {
         "grunt-cli" : "*",
-        "grunt" : "*"
+        "grunt" : "*",
+        "grunt-contrib-jshint": "*"
     }
 }

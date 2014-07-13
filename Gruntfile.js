@@ -9,6 +9,7 @@ module.exports = function (grunt) {
         jshint: {
             first: {
                 options: {
+                    reporterOutput: /*'jshint.log'*/null,
                     jshintrc: ".jshintrc"      // 外部配置文件
                 },
 
@@ -35,10 +36,21 @@ module.exports = function (grunt) {
             suba: {
                 subb: 'subbbbbbbbb'
             }
+        },
+
+        tabtospace: {
+            options: {
+                spaceCnt: 4
+            },
+            src: [
+                './src/**/*.js'
+            ]
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
+
+    grunt.loadTasks('./task/tabtospace');
 
 
     grunt.registerTask("xxx", ["测试下registerTask怎么用"], ['jshint']);

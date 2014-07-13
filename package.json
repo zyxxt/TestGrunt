@@ -1,0 +1,23 @@
+{
+    "name": "TestGrunt",
+    "version": "0.0.1",
+    "description": "测试下Grunt怎么用。。",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "zyxxt",
+    "contributors": [
+        {"name": "zyxxt", "email": "zhangyuantao@163.com", "url": "http://about.me/zhangyuantao"}
+    ],
+    "bugs": {
+        "url" : "http://github.com/zyxxt/project/issues",
+        "email" : "project@hostname.com"
+    },
+    "license": "MIT",
+
+    "devDependencies": {
+        "grunt-cli" : "*",
+        "grunt" : "*"
+    }
+}

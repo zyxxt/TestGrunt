@@ -11,14 +11,16 @@
         {"name": "zyxxt", "email": "zhangyuantao@163.com", "url": "http://about.me/zhangyuantao"}
     ],
     "bugs": {
-        "url" : "http://github.com/zyxxt/project/issues",
-        "email" : "project@hostname.com"
+        "url" : "https://github.com/zyxxt/TestGrunt/issues",
+        "email" : "zhangyuantao@163.com"
     },
     "license": "MIT",
 
     "devDependencies": {
         "grunt-cli" : "*",
         "grunt" : "*",
-        "grunt-contrib-jshint": "*"
+        "grunt-contrib-jshint": "*",
+
+        "grunt-tabtospace": "*"
     }
 }

@@ -49,6 +49,8 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    // 测试下我自己写的这个插件有没有问题
+    //grunt.loadNpmTasks('grunt-tabtospace');
 
     grunt.loadTasks('./task/tabtospace');
 
